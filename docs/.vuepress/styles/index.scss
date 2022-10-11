@@ -1,0 +1,18 @@
+// @use for importing index.css https://sass-lang.com/documentation/at-rules/use
+@use '../../../src/index.css';
+
+// @layer base for customizing tailwind base.css style https://tailwindcss.com/docs/adding-custom-styles#adding-base-styles
+@layer base {
+  h1 {
+    @apply text-3xl font-semibold;
+  }
+  h2 {
+    @apply text-2xl font-semibold;
+  }
+  h3 {
+    @apply text-xl font-semibold;
+  }
+  h4 {
+    @apply text-lg font-semibold;
+  }
+}

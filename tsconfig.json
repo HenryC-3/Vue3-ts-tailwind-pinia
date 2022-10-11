@@ -1,0 +1,13 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.web.json",
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "docs/.vuepress/*", "**/**.js", "**/**.ts"],
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true
+  },
+
+  "references": [
+    {
+      "path": "./tsconfig.vite-config.json"
+    }
+  ]
+}
